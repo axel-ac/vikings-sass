@@ -1,7 +1,113 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.home-social {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+}
+.home-social .home-social-link {
+  font-size: 2.5rem;
+}
+.home-social .home-social-copy {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+}
+.home-social a {
+  color: white;
+  padding: 0 0.3rem;
+  transition: all 1s;
+}
+.home-social a:hover {
+  color: red;
+}
+
+.nav {
+  height: 10vh;
+  padding: 1rem;
+}
+.nav__list {
+  text-align: right;
+}
+.nav__item {
+  display: inline;
+  padding: 1rem;
+}
+.nav__link {
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #eee;
+  transition: all 1s;
+}
+.nav__link:hover {
+  color: blue;
+}
+.nav__link--active {
+  color: red;
+}
+
+.about-bgImg-container {
+  height: 50vh;
+  width: 100%;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.jpg");
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.about-bgImg-container .about-bio {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.about-bgImg-container .about-bio h2 {
+  font-size: 2rem;
+  color: red;
+}
+.about-bgImg-container .about-bio p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.home-bgImg-container {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 80vh;
+}
+.home h2 {
+  font-size: 4rem;
+  color: red;
+}
+.home h1 {
+  font-size: 6rem;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 100vh;
+  line-height: 1;
+  background-color: #272727;
+  color: #eee;
 }
 
 /*# sourceMappingURL=main.css.map */

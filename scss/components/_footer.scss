@@ -1,0 +1,25 @@
+.home-social {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+
+  & .home-social-link {
+    font-size: 2.5rem;
+  }
+
+  & .home-social-copy{
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+  }
+
+  & a {
+    color: white;
+    padding: 0 0.3rem;
+    @include transition(1s);
+
+    &:hover {
+      color: red;
+    }
+  }
+}

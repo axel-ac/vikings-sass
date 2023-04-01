@@ -1,0 +1,23 @@
+.about-bgImg-container {
+  @include bgImg(50vh, $main-bgImg-path);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .about-bio {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    h2 {
+      font-size: 2rem;
+      color: red;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+    }
+  }
+}
