@@ -39,3 +39,27 @@
     padding: 0.3rem 0;
   }
 }
+
+
+// contact
+.footer-contact-social{
+  display: flex;
+  flex-direction: column;
+ text-align: center; 
+ font-size: 2rem;
+ gap:1rem 0;
+
+ .contact-copy{
+  font-size: 1rem;
+ }
+
+  & a {
+    color: white;
+    padding: 0 0.3rem;
+    @include transition(1s);
+
+    &:hover {
+      color: red;
+    }
+  }
+}
