@@ -21,3 +21,23 @@
     }
   }
 }
+
+.about{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+
+
+    .about-div{
+        background-color: #414141;
+        padding: 2rem;
+        width: 70%;
+        border-bottom: 3px solid red;
+        line-height: 25px;
+    }
+}
+
+
