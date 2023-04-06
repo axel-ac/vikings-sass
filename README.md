@@ -1,9 +1,9 @@
-# Bootstrap Web Page
+# Vikings Sass
 ## Description
-Our goal in this project is to create a web page using bootstrap 5 at a basic level.
+Our goal in this project is to create a web page using Sass.
 ## Project Skeleton
 ```
-Boostrap-Project (folder)
+vikings-sass (folder)
 |
 |----readme.md                 
 |----img (folder)
@@ -21,4 +21,4 @@ https://vikings-sass.netlify.app/
 ### At the end of the project, following topics are to be covered;
 - HTML 
 - CSS
-- Boostrap
+- Sass
